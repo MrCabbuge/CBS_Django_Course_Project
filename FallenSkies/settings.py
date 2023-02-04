@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*s=p4zy22e3h51(vxhqbsu_ru12_z_+n357*so(s_-!)ckpqk8
 DEBUG = True
 
 ALLOWED_HOSTS = ['cbsdjangocourseproject-production.up.railway.app', '127.0.0.1', 'localhost']
-
+CSRF_TRUSTED_ORIGINS = ['cbsdjangocourseproject-production.up.railway.app']
 
 # Application definition
 
