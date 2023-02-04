@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-*s=p4zy22e3h51(vxhqbsu_ru12_z_+n357*so(s_-!)ckpqk8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['cbsdjangocourseproject-production.up.railway.app', '127.0.0.1:8000', 'localhost']
+ALLOWED_HOSTS = ['cbsdjangocourseproject-production.up.railway.app', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -121,6 +121,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media/'
+STATIC_ROOT = BASE_DIR / 'media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
